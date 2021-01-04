@@ -4,20 +4,20 @@
   "manifest_version": 2,
   "name": "Compressy",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "homepage_url": "https://github.com/asmit-choudhary/compressy ",
   "icons": {
     "48": "icons/border-48.png"
   },
 
   "browser_action": {
     "default_icon": "icons/border-48.png",
-    "default_title": "Beastify",
-    "default_popup": "popup/borderify.html"
+    "default_title": "Compressy",
+    "default_popup": "popup/compressy.html"
   },  
 
   "content_scripts": [
     {
-      "matches": ["*://*.*"],
+      "matches": ["<all_urls>"],
       "js": ["borderify.js"]
     }
   ]
