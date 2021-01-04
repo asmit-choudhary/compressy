@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  margin: auto;
+  height : 750px;
+  width: 480px;
+  overflow: scroll;
+}
+
+.box1,.box2,.box3{
+	position: relative;
+    width: 460px;
+}
+.box1{
+	height: 50px;
+	background-color: gray;
+}
+.box2{
+	height:350px;
+	background-color: #202020;
+}
+
+.box3{
+	height: 100px;
+	background-color: black;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.circle{
+	position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 60px; 
+}
+.uname{
+	position: absolute;
+	left: 50px;
+    top: 15px;
+}
+#post-area{
+	position: absolute;
+    top: 45px;
+    left: 10px;
+}
+
+#post-button{
+	position: absolute;
+    top: 46px;
+    right: 10px;
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: green;
+    color: white;
+    border: 0px;
+}
+#msg{
+	position: absolute;
+    top: 10px;
+    left: 10px;
+	color: white;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+	<div class = "box1">
+    	<div class = "circle"></div>
+        <div class = "uname">ayush</div>
+    </div>
+    <div class = "box2">
+    	<img src = "https://picsum.photos/1000" style="width: 460px; height: auto">
+    </div>
+    <div class = "box3">
+      <div id = "msg">Some message here...</div>
+      <div id = "post-area"><textarea cols= 42 rows = "1"></textarea></div>
+      <button id = "post-button">Post</button>
+    </div>
+    
+    <div class = "box1">
+    	<div class = "circle"></div>
+        <div class = "uname">akask</div>
+    </div>
+    <div class = "box2">
+    	<img src = "https://picsum.photos/1100" style="width: 460px; height: auto">
+    </div>
+    <div class = "box3">
+      <div id = "msg">Some message here...</div>
+      <div id = "post-area"><textarea cols= 42 rows = "1"></textarea></div>
+      <button id = "post-button">Post</button>
+    </div>
+    
+    <div class = "box1">
+    	<div class = "circle"></div>
+        <div class = "uname">ankur</div>
+    </div>
+    <div class = "box2">
+    	<img src = "https://picsum.photos/1200" style="width: 460px; height: auto">
+    </div>
+    <div class = "box3">
+      <div id = "msg">Some message here...</div>
+      <div id = "post-area"><textarea cols= 42 rows = "1"></textarea></div>
+      <button id = "post-button">Post</button>
+    </div>
+    
+    <div class = "box1">
+    	<div class = "circle"></div>
+        <div class = "uname">ankit</div>
+    </div>
+    <div class = "box2">
+    	<img src = "https://picsum.photos/1300" style="width: 460px; height: auto">
+    </div>
+    <div class = "box3">
+      <div id = "msg">Some message here...</div>
+      <div id = "post-area"><textarea cols= 42 rows = "1"></textarea></div>
+      <button id = "post-button">Post</button>
+    </div>
+</div>
+
+</body>
+</html>
