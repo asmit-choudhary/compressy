@@ -1,7 +1,4 @@
-/*
-Just draw a border round the document.body.
-*/
-//document.body.style.border = "25px solid red";
+
 var div = document.createElement('div');
 div.setAttribute("id","compressor-div");
 div.style.height = "200px";
