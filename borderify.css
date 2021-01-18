@@ -1,0 +1,8 @@
+input[type=file]::-webkit-file-upload-button {
+    background-color: rgba(30,144,255);
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius : 10px;
+    border: none;
+}

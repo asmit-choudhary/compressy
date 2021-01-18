@@ -29,6 +29,16 @@ function gotMessage(message, sender, sendResponse){
         browse.style.float = "right";
         browse.style.width = "103px";
         browse.style.overflow = "hidden";
+        // var style = document.createElement("style");
+        // style.setAttribute("type","text/css");
+        // style.innerHTML = " input[type=file]::-webkit-file-upload-button {\
+        //                          background-color: rgba(30,144,255);\
+        //                          color: white;\
+        //                          padding: 10px;\
+        //                          font-size: 0.9em;\
+        //                          border-radius : 10px;\
+        //                          border: none;} ";
+        // document.head.appendChild(style); 
         div.appendChild(browse);
 
         var compressButton = document.createElement("input");
